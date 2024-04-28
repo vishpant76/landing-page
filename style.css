@@ -1,5 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* flex: 1; */
+  font-family: Roboto, sans-serif;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  /* display: flex;
+    flex-direction: column; */
+  /* flex-shrink: 0; */
+  /* justify-content: center;
+  align-items: center; */
+  padding: 10px 60px 0;
+  /* margin-bottom: 30px; */
+}
+
+.header-text {
+  font-size: 24px;
+  /* font-weight: bold; */
+  color: #f9faf8;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+}
+
+.website-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  margin-top: 14px;
+}
+
+/* .about-website {
+  width: 500px;
+  flex: 1;
+} */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+
+.images {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.images li {
+  max-width: 200px;
+}
+
+.images li img {
+  width: 200px;
+  height: auto;
+}
+
+.copyright-footer {
+  background-color: #1f2937;
+  font-size: 18px;
+  color: #e5e7eb;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  /* flex-wrap: wrap-reverse;
+  justify-content: center; */
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937;
+  max-width: 780px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quotemaster {
+  font-weight: bold;
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }

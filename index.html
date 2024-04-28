@@ -7,9 +7,9 @@
     <title>TOP - Landing Page</title>
   </head>
   <body>
-    <section>
-      <header>
-        <p>Header Logo</p>
+    <div class="hero-section">
+      <header class="header">
+        <p class="header-text">Header Logo</p>
         <ul class="header-links">
           <li>
             <a href="#">header link one</a>
@@ -23,16 +23,69 @@
         </ul>
       </header>
 
-      <div>
-        <section>
+      <div class="signup-section">
+        <div class="about-website">
           <h1>This website is awesome</h1>
-          <p>
+          <p class="website-subtext">
             This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
           </p>
           <button>Sign Up</button>
-        </section>
-        <img src="" alt="this is a placeholder for an image" />
+        </div>
+        <div class="image">
+          <img src="./assets/rec-2.jpg" alt="" width="400" height="220" />
+          <!-- <p>this is a placeholder for an image</p> -->
+        </div>
       </div>
-    </section>
+    </div>
+
+    <!-- information section -->
+    <div class="info-section">
+      <h2>Choose your level.</h2>
+      <ul class="images">
+        <li>
+          <img src="./assets/bird-1.jpg" alt="" />
+          <p>this is some subtext under an illustration or image</p>
+        </li>
+        <li>
+          <img src="./assets/bird-2.jpg" alt="" />
+          <p>this is some subtext under an illustration or image</p>
+        </li>
+        <li>
+          <img src="./assets/bird-3.jpg" alt="" />
+          <p>this is some subtext under an illustration or image</p>
+        </li>
+        <li>
+          <img src="./assets/bird-4.jpg" alt="" />
+          <p>this is some subtext under an illustration or image</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Quote section -->
+    <div class="quote-section">
+      <blockquote>
+        <p class="quote">
+          If there is a problem you cannot solve, then there is an easier
+          problem you CAN solve: find it!
+        </p>
+        <p class="quotemaster">-George Pólya</p>
+      </blockquote>
+    </div>
+
+    <!-- call to action -->
+    <div>
+      <div>
+        <p>Call to action! It's time!</p>
+        <p>Sign up for our product by clicking that button right over there!</p>
+      </div>
+
+      <button>Sign up</button>
+    </div>
+
+    <!-- footer -->
+    <footer class="copyright-footer">
+      Copyright &copy; The Odin Project 2024
+    </footer>
   </body>
 </html>
