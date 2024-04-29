@@ -12,6 +12,8 @@ body {
   /* justify-content: space-between; */
   /* flex: 1; */
   font-family: Roboto, sans-serif;
+  /* What does this do? */
+  height: 100vh;
 }
 
 .hero-section {
@@ -105,10 +107,11 @@ ul {
   background-color: #1f2937;
   font-size: 18px;
   color: #e5e7eb;
-  height: 50px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 h2 {
@@ -143,4 +146,47 @@ h2 {
   align-self: flex-end;
   display: flex;
   justify-content: flex-end;
+}
+
+.action-section {
+  display: flex;
+  /* flex: auto; */
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.action-header,
+.action-text {
+  color: #f9faf8;
+}
+
+.action-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.action-text {
+  font-size: 16px;
+  color: #e5e7eb;
+  max-width: 100%;
+}
+
+.signup-action {
+  background-color: #3882f6;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 100px;
+  padding: 30px 90px;
+  border-radius: 10px;
+}
+
+.signup-btn {
+  border: 2px solid #f9faf8;
+  padding: 6px 28px;
+  border-radius: 6px;
+  margin: 0;
 }
